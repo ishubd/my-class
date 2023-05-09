@@ -1,0 +1,21 @@
+/* a {
+  text-decoration: none;
+  color: inherit;
+} */
+
+/* p {
+  display: inline;
+} */
+
+.item-1,
+.item-2,
+.item-3 {
+  border: 1px solid black;
+  margin: 3px;
+  padding: 30px;
+  /* margin-top: 3px; */
+}
+
+.item-1 {
+  color: red;
+}
