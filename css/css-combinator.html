@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css combinator</title>
+    \
+    <link rel="stylesheet" href="./style/css-combinator.css" />
+  </head>
+  <body>
+    <h1>CSS combinator</h1>
+    <ul>
+      <li>Descendant Selecor (space)</li>
+      <li>Child Selector (>)</li>
+      <li>Ajacent sibling selector (+)</li>
+      <li>General sibling selector (~)</li>
+    </ul>
+
+    <div class="parent">
+      <div class="box-1">
+        <!-- Not but descendant -->
+        <p>First box</p>
+      </div>
+
+      <div class="box-2">
+        <!-- Not but descendant -->
+        <p>Second box</p>
+      </div>
+
+      <p>This is paragraph outside the box -1</p>
+      <p>This is paragraph outside the box -2</p>
+    </div>
+  </body>
+</html>

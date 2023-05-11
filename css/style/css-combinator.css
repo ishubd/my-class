@@ -1,0 +1,19 @@
+/* Descendants selecor
+.parent p {
+  color: red;
+} */
+
+/* Child Selector
+.parent > p {
+  color: red;
+} */
+
+/* Ajacent sibling selector
+.box-2 + p {
+    color: red;
+} */
+
+/* General sibling selector */
+.box-1 ~ p {
+  color: red;
+}
