@@ -1,0 +1,14 @@
+li {
+  display: inline;
+  margin-left: 10px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  color: red;
+}
