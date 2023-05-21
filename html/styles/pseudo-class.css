@@ -1,0 +1,15 @@
+/* selector:pseudo-class{
+    property:valuee;
+} */
+
+.paragraph > p:hover {
+  color: red;
+}
+
+a:visited {
+  color: teal;
+}
+
+a:active {
+  color: yellow;
+}

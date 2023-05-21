@@ -9,7 +9,7 @@
 } */
 
 /* Ajacent sibling selector
-.box-2 + p {
+.box-1 + p {
     color: red;
 } */
 
