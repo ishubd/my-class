@@ -13,3 +13,25 @@ a:visited {
 a:active {
   color: yellow;
 }
+
+.box {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 15px;
+}
+/* 
+.box:first-child {
+  background-color: red;
+} */
+
+/* .box:nth-child(2) {
+  background-color: teal;
+} */
+
+/* .box:nth-child(2n) {
+  background-color: orange;
+} */
+
+.box:not(.first) {
+  background-color: brown;
+}
