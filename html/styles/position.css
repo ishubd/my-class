@@ -22,3 +22,15 @@
   top: 100px;
   left: 100px;
 } */
+
+ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: aqua;
+}
