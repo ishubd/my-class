@@ -1,0 +1,22 @@
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+/* score: 010 */
+/* .para {
+  color: blue;
+} */
+
+/* score: 100 */
+/* #paragraph {
+  color: blueviolet;
+} */
+
+/* score: 001 */
+p {
+  color: yellow;
+}
+
+/* p::selection {
+  color: red;
+} */
